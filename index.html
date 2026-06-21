@@ -186,7 +186,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Eastern and western boundary areas show high stream power index in red/orange indicating strong erosive flow energy, while central and southwestern blue patches show low index indicating weaker stream energy and less erosion potential.';
+                this._div.innerHTML = 'Blue areas have high Stream Power Index meaning steep slopes with high water flow and strong erosive power, while red areas have low Stream Power Index meaning flat terrain with slow flow and weak erosion potential.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
